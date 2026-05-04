@@ -1,0 +1,53 @@
+### Сборка и временные файлы (Gradle / Java) ###
+.gradle/
+build/
+bin/
+out/
+.kotlin/
+*.class
+*.log
+local.properties
+
+# Исключения: оставляем обертку Gradle, чтобы проект мог собраться у других
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Операционные системы ###
+.DS_Store
+Thumbs.db
+
+### Appium / Тестирование (Специфичное) ###
+allure-results/
+allure-report/
+screenshots/
+logs/
+
+*.ipa
+*.apk
+
+### Конфиденциальные данные ###
+src/test/resources/configs/login.properties
